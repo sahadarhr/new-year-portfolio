@@ -26,6 +26,8 @@
 
 }
 
+
+
 .header-description {
     font-weight: 400;
     font-size: 16px;
@@ -40,4 +42,28 @@
     background-color: #f15B22;
     padding: 25px;
     margin-top: 25px;
+}
+
+/* section part */
+.section {
+    display: flex;
+    gap: 100px;
+}
+
+.section-title {
+    font-weight: 800;
+    font-size: 50px;
+    margin-top: 200px;
+
+
+}
+
+.section-sub-title {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.section-description,li{
+   margin-top: 10px;
 }

@@ -1,0 +1,43 @@
+* {
+    font-family: 'Work Sans';
+}
+
+/* first part of website(header) */
+.header {
+    width: 1600px
+}
+
+.header-item {
+
+    position: absolute;
+    top: 20%;
+    left: 50%;
+}
+
+.header-title {
+    display: flex;
+}
+
+.header-sub-title {
+    font-weight: 700;
+    font-size: 55px;
+    color: #151414;
+    font-family: 'Work Sans';
+
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    margin-top: 24px;
+}
+
+.btn-primary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    background-color: #f15B22;
+    padding: 25px;
+    margin-top: 25px;
+}

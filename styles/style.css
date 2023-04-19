@@ -4,18 +4,22 @@
 
 /* first part of website(header) */
 .header {
-    width: 1600px
+    width: 1600px;
 }
 
 .header-item {
 
     position: absolute;
-    top: 20%;
-    left: 50%;
+    top: 30%;
+    left: 30%;
+  
 }
 
 .header-title {
     display: flex;
+    text-align: right;
+    margin-right: 20px;
+    
 }
 
 .header-sub-title {
@@ -26,13 +30,12 @@
 
 }
 
-
-
 .header-description {
     font-weight: 400;
     font-size: 16px;
     color: #444343;
     margin-top: 24px;
+   margin-left: 20px;
 }
 
 .btn-primary {
@@ -63,6 +66,7 @@
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 15px;
+    margin-left: 10px;
 }
 
 .section-description,
@@ -141,5 +145,71 @@ li {
     color: #F15B22;
     margin-top: 20px;
     margin-bottom: 70px;
+
+}
+
+/* footer part */
+.footer-main-content {
+    display: flex;
+    gap: 340px;
+    background-color: #151414;
+    width: 1600px;
+    height: 480px;
+    margin-left: 50px;
+
+}
+
+.footer-title {
+    padding-left: 112px;
+}
+
+.footer-secand-title {}
+
+.title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 15px;
+    padding-top: 130px;
+
+
+}
+
+.sub-title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 20px;
+
+}
+
+.sub-main-title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.description {
+    color: #FFFFFF;
+
+}
+
+.icons {
+    justify-content: space-evenly;
+}
+
+.title2 {
+    color: #FFFFFF;
+    padding-top: 130px;
+    padding-right: 503px;
+    font-weight: 600;
+    font-size: 25px;
+    padding-bottom: 30px;
+
+}
+
+.sub-title2 {
+    color: #FFFFFF;
+    padding-bottom: 15px;
 
 }

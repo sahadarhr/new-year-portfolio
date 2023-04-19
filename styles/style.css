@@ -101,6 +101,45 @@ li {
 .plans-description {
     font-weight: 500;
     font-size: 25px;
-    color:  #737272;
+    color: #737272;
     margin-bottom: 140px;
+}
+
+/* gradient part */
+
+.gradient {
+    background-image: url('../images/watch.png');
+    background-repeat: no-repeat;
+    display: flex;
+    position: relative;
+    left: 230px;
+    margin-bottom: 130px;
+
+
+}
+
+.gradient-title {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.gradient-item {
+    position: absolute;
+    top: 20px;
+    left: 40px;
+    padding-top: 60px;
+    padding-left: 64px;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+
+}
+
+.btn-secandary {
+    font-weight: 600;
+    font-size: 20px;
+    color: #F15B22;
+    margin-top: 20px;
+    margin-bottom: 70px;
+
 }
